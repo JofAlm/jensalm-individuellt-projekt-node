@@ -112,12 +112,12 @@ Headers:
 Authorization: Bearer YOUR_GENERATED_TOKEN
 Content-Type: application/json
 Body:
-			{
-  				"id": 7,
-  				"title": "Espresso",
-  				"desc": "Strong and rich coffee.",
-  				"price": 45
-			}
+	{
+		"id": 7,
+		"title": "Espresso",
+		"desc": "Strong and rich coffee.",
+		"price": 45
+	}
 
 Update a product in the menu
 Endpoint: /admin/product
@@ -127,12 +127,12 @@ Authorization: Bearer YOUR_GENERATED_TOKEN
 Content-Type: application/json
 Body:
 
-{
-  "id": 7,
-  "title": "Espresso",
-  "desc": "Even stronger coffee.",
-  "price": 50
-}
+	{
+  		"id": 7,
+  		"title": "Espresso",
+  		"desc": "Even stronger coffee.",
+  		"price": 50
+	}
 
 Delete a product from the menu
 Endpoint: /admin/product/:id
@@ -157,10 +157,10 @@ Authorization: Bearer YOUR_GENERATED_TOKEN
 Content-Type: application/json
 Body:
 
-{
-  "products": [1, 2],
-  "campaignPrice": 70
-}
+	{
+  		"products": [1, 2],
+  		"campaignPrice": 70
+	}
 
 
 This README provides an overview of how to install, run, and use the various functions of the project.
