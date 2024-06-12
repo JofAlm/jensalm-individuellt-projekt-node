@@ -112,12 +112,14 @@ Headers:
 Authorization: Bearer YOUR_GENERATED_TOKEN
 Content-Type: application/json
 Body:
+
 	{
 		"id": 7,
 		"title": "Espresso",
 		"desc": "Strong and rich coffee.",
 		"price": 45
 	}
+
 
 Update a product in the menu
 Endpoint: /admin/product
