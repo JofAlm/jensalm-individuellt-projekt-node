@@ -1,4 +1,5 @@
 # jensalm-individuellt-projekt-node
+
 Airbean API
 This is a REST API for the Airbean API exam, built with Node.js and Express and using NeDB as the database. The API provides functions for managing menus, orders, users, carts, as well as administering the products in the menu and handling promotions.
 
@@ -160,40 +161,6 @@ Body:
   "products": [1, 2],
   "campaignPrice": 70
 }
-
-
-backend-project-grupp-6
-├── cart.db
-├── index.js
-├── orders.db
-├── package.json
-├── package-lock.json
-├── .gitignore
-├── src
-│   ├── config
-│   │   ├── data.js
-│   │   ├── db.js
-│   ├── middleware
-│   │   ├── authToken.js
-│   │   ├── isAdmin.js
-│   │   ├── validateCart.js
-│   │   ├── validateUser.js
-│   ├── routes
-│   │   ├── admin.js
-│   │   ├── cart.js
-│   │   ├── companyInfo.js
-│   │   ├── menu.js
-│   │   ├── order.js
-│   │   ├── users.js
-│   ├── services
-│   │   ├── adminService.js
-│   │   ├── cartService.js
-│   │   ├── orderService.js
-│   │   ├── statusService.js
-│   │   ├── userService.js
-│   └── campaignService.js
-└── campaign.db
-
 
 
 This README provides an overview of how to install, run, and use the various functions of the project.
