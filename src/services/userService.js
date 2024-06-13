@@ -1,12 +1,18 @@
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
-import { userDb } from "../config/db.js"; // Anta att du har en userDb för användardata
+import { userDb } from "../config/db.js"; // userDb för användardata
 
 // Funktion för att registrera en ny användare
 async function registerUser(req, res) {
   const { username, password } = req.body;
 
   try {
+        // Kontrollera om användarnamnet redan existerar
+        const existingUser = await userDb.findOne({ username });
+        if (existingUser) {
+          return res.status(400).json({ error: 'Username already exists' });
+        }
+    
     const hashedPassword = await bcrypt.hash(password, 10);
     const user = { username, password: hashedPassword };
 
@@ -20,13 +26,12 @@ async function registerUser(req, res) {
   }
 }
 
-const SECRET_KEY = "your-secret-key"; // Du bör använda en miljövariabel för detta
-
+const SECRET_KEY = "your-secret-key"; 
 // Hårdkodad admin-användare
 const adminUser = {
-  id: "admin_id", // Använd ett unikt ID
+  id: "admin_id", 
   username: "admin",
-  password: "adminpassword", // Byt ut detta mot ett säkrare lösenord
+  password: "adminpassword", 
   role: "admin",
 };
 

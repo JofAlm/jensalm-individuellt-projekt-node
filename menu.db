@@ -1,10 +1,7 @@
 {"id":6,"title":"Cortado","desc":"Bryggd på månadens bönor.","price":39,"preptime":5,"_id":"Do6zjZc2tQheyQ3Y"}
 {"id":1,"title":"Bryggkaffe","desc":"Bryggd på månadens bönor.","price":39,"preptime":5,"_id":"HHnKPD75UEhLO4DD"}
 {"id":4,"title":"Latte Macchiato","desc":"Bryggd på månadens bönor.","price":49,"preptime":7,"_id":"LrSDWIKIAJ2UAjGw"}
+{"id":11,"title":"Espresso","desc":"Strong and rich coffee.","price":45,"createdAt":{"$$date":1718226641837},"_id":"TIVCyr06E4ZAOG4l"}
 {"id":3,"title":"Cappuccino","desc":"Bryggd på månadens bönor.","price":49,"preptime":8,"_id":"XOf9JUWzXwHfBKG4"}
 {"id":5,"title":"Kaffe Latte","desc":"Bryggd på månadens bönor.","price":54,"preptime":6,"_id":"aWZjbnBIGwR0oMGT"}
 {"id":2,"title":"Caffè Doppio","desc":"Bryggd på månadens bönor.","price":49,"preptime":7,"_id":"vn0c4blHgji5MOtN"}
-{"id":11,"title":"Espresso","desc":"Strong and rich coffee.","price":45,"createdAt":{"$$date":1718226571985},"_id":"DrVzXTa8CsyEtRO1"}
-{"id":11,"title":"Espresso","desc":"Strong and rich coffee.","price":45,"createdAt":{"$$date":1718226641837},"_id":"TIVCyr06E4ZAOG4l"}
-{"id":11,"title":"Espresso","desc":"Even stronger","price":45,"createdAt":{"$$date":1718226571985},"_id":"DrVzXTa8CsyEtRO1","modifiedAt":{"$$date":1718226689564}}
-{"$$deleted":true,"_id":"DrVzXTa8CsyEtRO1"}

@@ -99,8 +99,6 @@ async function createOrder(req, res) {
   }
 }
 
-// JENS, VILL DU GÖRA DEN HÄR TACK (getUserOrders funktionen)
-// Den ska visa alla ordrar och en totalsumma för alla ordrar
 
 // Funktion för att hämta en användares orderhistorik
 async function getUserOrders(req, res) {
